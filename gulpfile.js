@@ -114,7 +114,7 @@ gulp.task('sprite:build', function() {
                 }
             }));
 
-    spriteData.img.pipe(gulp.dest('bitrix/templates/main/img/'));
+    spriteData.img.pipe(gulp.dest('prod/img/'));
     spriteData.css.pipe(gulp.dest('./src/sass/lib/')); 
 });
 
